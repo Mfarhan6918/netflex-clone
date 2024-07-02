@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="icon" type="image/png" href="favicn.png" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind css</title>
+  </head>
+  <body>
+    <!--============== Banner section start here ===============-->
+    <section class="w-full h-[100vh] bg-[url('images/bg_img.jpeg')] bg-center bg-cover ">
+      <div class="w-full h-[100vh] bg-[rgba(0,0,0,0.6)]">
+        <header class="max-w-[1170px] mx-auto">
+          <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] p-[10px] items-center">
+            <figure>
+              <img src="images/logo.png" class="w-[148px]" alt="logo">
+            </figure>
+            <div class="flex justify-end items-center gap-4">
+              <div>
+                <select name="" id="" class="bg-black text-white border border-white sm:p-[7px_25px] p-[5px_25px] outline-none rounded">
+                  <option value="">English</option>
+                  <option value="">Urdu</option>
+                </select>
+              </div>
+              <button class="bg-[red] p-[5px_10px] rounded text-white">Sign In</button>
+            </div>
+          </div>
+        </header>
+        <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center">
+          <h1 class="sm:text-5xl text-3xl font-bold text-white">Unlimited movies, TV shows and more</h1>
+          <p class="text-white md:text-xl text-lg my-5 font-serif">Watch anywhere. Cancel anytime.</p>
+          <p class="text-white md:text-xl text-lg my-5 font-serif">Ready to watch? Enter your Email to create or reset your membership.</p>
+          <div class="flex justify-center gap-2 flex-wrap">
+            <input placeholder="Email Address" class="bg-[rgba(0,0,0,0.5)] w-[300px] p-3 text-white border border-[rgba(144,144,144,0.5)]" type="text">
+            <button class="bg-[red] p-[10px_25px] font-bold rounded text-white text-xl hover:bg-[rgb(193,17,25)] duration-300">Get Started ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============== Banner section end here ===============-->
+    <!--============== Enjoy on your TV section start here ================-->
+    <section class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <div class="sm:text-left text-center">
+            <h2 class="sm:text-4xl lg:text-5xl text-3xl font-bold text-white">Enjoy on your TV</h2>
+            <p class="text-white md:text-xl text-lg my-5 font-serif">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br> Apple TV, Blu-ray players and more.</p>
+          </div>
+          <figure class="relative">
+            <video class="absolute w-[73.5%] bottom-[24.5%] left-[13%] z-[1]">
+              <source src="images/video.mp4">
+            </video>
+            <img class="relative z-10" src="images/tv.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--============== Enjoy on your TV section end here ===============-->
+    <!--============== Download section start here ===============-->
+    <section class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <figure class="relative sm:order-1 order-2">
+            <img src="images/mobile-0819.jpg" alt="">
+            <div class="sm:w-[60%] w-[90%] absolute sm:left-[20%] left-[5%] border-[1px] border-[#ccc] bottom-0 
+            grid grid-cols-[70%_auto] bg-black rounded-xl p-3 items-center">
+              <div class="grid grid-cols-[25%_auto] gap-3 items-center">
+                <img src="images/boxshot.png" alt="">
+                <div class=" text-white">
+                  <h3 class="text-sm font-bold">Stranger Things</h3>
+                  <span class="text-[blue]">Downloading...</span>
+                </div>
+              </div>
+              <div>
+                <img src="" alt="dwnldng">
+              </div>
+            </div>
+          </figure>
+          <div class="sm:text-left text-center sm:order-2 order-1">
+            <h2 class="sm:text-4xl lg:text-[45px] text-3xl font-bold text-white lg:leading-[55px]">Download your shows to watch offline</h2>
+            <p class="text-white md:text-xl text-lg my-5 font-serif">Save your favourites easily and always have something to watch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============== Download section end here ===============-->
+    <!--============== Watch Everyehere section start here ===============-->
+    <section class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <div class="sm:text-left text-center">
+            <h2 class="sm:text-4xl lg:text-5xl text-3xl font-bold text-white">Watch Everyehere</h2>
+            <p class="text-white md:text-xl text-lg my-5 font-serif">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+          </div>
+          <figure class="relative">
+            <video class="absolute w-[73.5%] bottom-[24.5%] left-[13%] z-[1]">
+              <source src="images/map_filter.mp4">
+            </video>
+            <img class="relative z-10" src="images/tv.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--============== Watch Everyehere section end here ===============-->
+    <!--============== Create Profile for kids section start here ===============-->
+    <section class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+      <div class="max-w-[1170px] mx-auto px-4">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+          <figure class="relative sm:order-1 order-2">
+            <img src="images/kids.png" alt="">
+          </figure>
+          <div class="sm:text-left text-center sm:order-2 order-1">
+            <h2 class="sm:text-4xl lg:text-5xl text-3xl font-bold text-white">Create profiles for kids</h2>
+            <p class="text-white md:text-xl text-lg my-5 font-serif">Send children on adventures with their favourite characters in a space made just for them free with your membership.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============== Create Profile for kids section end here ===============-->
+    <!--============== FAQs section start here ===============-->
+        <section class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+          <div class="max-w-[1170px] mx-auto px-4">
+            <h2 class="sm:text-4xl lg:text-5xl text-3xl font-bold text-white text-center">Frequently Asked Questions</h2>
+            <div class="py-7">
+              <div class="bg-[#2d2d2d] mb-4">
+                <div class="text-white p-5 sm:text-xl text-lg flex justify-between items-center border-b-2 border-black hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqQuestions">
+                  <h3>What is Netflex?</h3>
+                  <span>+</span>
+                </div>
+                <div class="text-white sm:text-xl text-lg scale-y-0 h-0 origin-top duration-300">
+                  <p>Netflex is a streaming service that offers a wide variety of award-winning TV shows,
+                    movies, anime, documentaries and more - on thousands of internet-connected devices.
+                  </p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt iure magni 
+                    eos vel quae voluptatum error molestiae ducimus iusto, quaerat consequatur nostrum 
+                    veniam provident.</p>
+                </div>
+              </div>
+              <div class="bg-[#2d2d2d] mb-4">
+                <div class="text-white p-5 sm:text-xl text-lg flex justify-between items-center border-b-2 border-black hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqQuestions">
+                  <h3>What is Netflex?</h3>
+                  <span>+</span>
+                </div>
+                <div class="text-white sm:text-xl text-lg scale-y-0 h-0 origin-top duration-300">
+                  <p>Netflex is a streaming service that offers a wide variety of award-winning TV shows,
+                    movies, anime, documentaries and more - on thousands of internet-connected devices.
+                  </p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt iure magni 
+                    eos vel quae voluptatum error molestiae ducimus iusto, quaerat consequatur nostrum 
+                    veniam provident.</p>
+                </div>
+              </div>
+              <div class="bg-[#2d2d2d] mb-4">
+                <div class="text-white p-5 sm:text-xl text-lg flex justify-between items-center border-b-2 border-black hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqQuestions">
+                  <h3>What is Netflex?</h3>
+                  <span>+</span>
+                </div>
+                <div class="text-white sm:text-xl text-lg scale-y-0 h-0 origin-top duration-300">
+                  <p>Netflex is a streaming service that offers a wide variety of award-winning TV shows,
+                    movies, anime, documentaries and more - on thousands of internet-connected devices.
+                  </p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt iure magni 
+                    eos vel quae voluptatum error molestiae ducimus iusto, quaerat consequatur nostrum 
+                    veniam provident.</p>
+                </div>
+              </div>
+              <div class="bg-[#2d2d2d] mb-4">
+                <div class="text-white p-5 sm:text-xl text-lg flex justify-between items-center border-b-2 border-black hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer faqQuestions">
+                  <h3>What is Netflex?</h3>
+                  <span>+</span>
+                </div>
+                <div class="text-white sm:text-xl text-lg scale-y-0 h-0 origin-top duration-300">
+                  <p>Netflex is a streaming service that offers a wide variety of award-winning TV shows,
+                    movies, anime, documentaries and more - on thousands of internet-connected devices.
+                  </p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt iure magni 
+                    eos vel quae voluptatum error molestiae ducimus iusto, quaerat consequatur nostrum 
+                    veniam provident.</p>
+                </div>
+              </div>
+            </div>
+            <p class="text-white text-lg my-5 font-serif text-center">Ready to watch? Enter your Email to create or reset your membership.</p>
+            <div class="flex justify-center gap-2 flex-wrap">
+              <input placeholder="Email Address" class="bg-[rgba(0,0,0,0.5)] w-[300px] p-3 text-white border border-[rgba(144,144,144,0.5)]" type="text">
+              <button class="bg-[red] p-[10px_25px] font-bold rounded text-white text-xl hover:bg-[rgb(193,17,25)] duration-300">Get Started ></button>
+            </div>
+          </div>
+        </section>
+    <!--============== FAQs section end here ===============-->
+    <!--============== Footer section start here ===============-->
+    <footer class="w-full bg-black border-t-8 border-t-[#605858] sm:py-16 py-12">
+      <div class="max-w-[1170px] mx-auto px-4">
+        <h3 class="text-[#ccc] font-serif text-lg">Questions? Call <a class="underline" href="tell:000-800-919-1694">000-800-919-1694</a></h3>
+        <div class="py-7 grid sm:grid-cols-3 grid-cols-1">
+          <div>
+            <ul class="text-[#ccc]">
+              <li class="pb-2"><a class="underline font-serif" href="#">Faq</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Media Centre</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Ways to Watch</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Cookie Preferences</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Speed Test</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="text-[#ccc]">
+              <li class="pb-2"><a class="underline font-serif" href="#">Help Centre</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Investor Relations</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Terms of Use</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Corporate Information</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="text-[#ccc]">
+              <li class="pb-2"><a class="underline font-serif" href="#">Account</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Job</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Privacy</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Contact us</a></li>
+              <li class="pb-2"><a class="underline font-serif" href="#">Only on Netflix</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <select name="" id="" class="bg-black text-white border border-white sm:p-[7px_25px] p-[5px_25px] outline-none rounded">
+            <option value="">English</option>
+            <option value="">Urdu</option>
+          </select>
+        </div>
+        <p class="text-[#ccc] mt-5">Netflix Pakistan</p>
+      </div>
+    </footer>
+    <!--============== Footer section end here ===============-->
+
+    <!-- Javascript for FAQ -->
+    <script>
+      let faqs=document.querySelectorAll('.faqQuestions');
+      faqs.forEach((v,index)=>{
+        v.addEventListener('click',()=>{
+          v.nextElementSibling.classList.toggle("h-[auto]");
+          v.nextElementSibling.classList.toggle("scale-y-100");
+          v.nextElementSibling.classList.toggle("p-5");
+          v.children[1].classList.toggle("rotate-45");
+
+          faqs.forEach((el,i)=>{
+            if (i!=index) {
+              el.nextElementSibling.classList.remove("h-[auto]", "scale-y-100", "p-5");
+              el.children[1].classList.remove("rotate-45");
+            }
+          })
+        })
+      })
+    </script>
+  </body>
+</html>
